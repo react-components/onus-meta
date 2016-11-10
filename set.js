@@ -7,7 +7,7 @@ var register = require('onus-content').registry.register;
 
 var Set = React.createClass({
   componentWillUnmount: function() {
-    register(this.props.name, null, this.props.depth);
+    register('meta::' + this.props.name, null, this.props.depth);
   },
   render: function() {
     var props = this.props;
