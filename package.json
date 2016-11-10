@@ -1,6 +1,6 @@
 {
   "name": "onus-meta",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Set meta tags on the page",
   "main": "index.js",
   "scripts": {
